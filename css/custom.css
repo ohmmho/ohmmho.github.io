@@ -317,6 +317,11 @@ span.accent-pink {
     position: absolute;
   }
 
+  .textwrapper{
+    padding-top:50%;
+    padding-top:50vh;
+  }
+
   /*video {
     display: none;
   }*/
