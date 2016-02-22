@@ -42,6 +42,9 @@
     width: 100%;
 }
 
+.section-text {
+  z-index: 999;
+}
 .section-text img {
   float: left;
 }
@@ -54,10 +57,10 @@
   left:25%;
 }
 /*======= UI Elements =======*/
-span.pink {
+span.accent-pink {
    color: #FC636B;
 }
-.pink{
+.accent-pink{
   color: #FC636B;
 }
 .fa {
@@ -233,6 +236,57 @@ span.pink {
 
 
 
+
+/* scrolling stripes*/
+
+.fullpage {
+  /*height: 100vh;*/
+  width: 100%;
+  background: #312F38;
+  color: #fff;
+  text-align: center;
+}
+
+.bgpage {
+  height: 150vh;
+  width: 100%;
+  background: #312F38;
+  color: #fff;
+  text-align: center;
+}
+.textwrapper{
+  padding-bottom:50%;
+  padding-bottom:50vh;
+}
+.pink {
+  background: #FC636B;
+}
+
+
+.stripe {
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  overflow: hidden;
+}
+.stripe div {
+  width: 100%;
+  height: 49px;
+  position: absolute;
+  background: -webkit-linear-gradient(45deg, white 9%, transparent 9%)-9.16667px 10px, -webkit-linear-gradient(135deg, white 9%, transparent 9%)-9.16667px 11px, -webkit-linear-gradient(225deg, transparent 15%, white 15%, white 35%, transparent 35%) 16.33333px 10px, -webkit-linear-gradient(315deg, transparent 15%, white 15%, white 35%, transparent 35%) 16.33333px 10px;
+  background: linear-gradient(45deg, white 9%, transparent 9%)-9.16667px 10px, linear-gradient(-45deg, white 9%, transparent 9%)-9.16667px 11px, linear-gradient(-135deg, transparent 15%, white 15%, white 35%, transparent 35%) 16.33333px 10px, linear-gradient(135deg, transparent 15%, white 15%, white 35%, transparent 35%) 16.33333px 10px;
+  background-size: 49px 49px;
+}
+
+.stripes-wrapper2 .stripe div {
+  background: -webkit-linear-gradient(45deg, #FC636B 9%, transparent 9%)-9.16667px 10px, -webkit-linear-gradient(135deg, #FC636B 9%, transparent 9%)-9.16667px 11px, -webkit-linear-gradient(225deg, transparent 15%, #FC636B 15%, #FC636B 35%, transparent 35%) 16.33333px 10px, -webkit-linear-gradient(315deg, transparent 15%, #FC636B 15%, #FC636B 35%, transparent 35%) 16.33333px 10px;
+  background: linear-gradient(45deg, #FC636B 9%, transparent 9%)-9.16667px 10px, linear-gradient(-45deg, #FC636B 9%, transparent 9%)-9.16667px 11px, linear-gradient(-135deg, transparent 15%, #FC636B 15%, #FC636B 35%, transparent 35%) 16.33333px 10px, linear-gradient(135deg, transparent 15%, #FC636B 15%, #FC636B 35%, transparent 35%) 16.33333px 10px;
+  background-size: 49px 49px;
+}
+
+
+
 /*  =======   MEDIA QUERIES ======= */
 @media (max-width: 991px){
 
@@ -258,9 +312,9 @@ span.pink {
     position: absolute;
   }
 
-  video {
+  /*video {
     display: none;
-  }
+  }*/
   .section-text img {
     float: none;
   }
