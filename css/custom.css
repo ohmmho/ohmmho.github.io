@@ -299,10 +299,11 @@ span.accent-pink {
 @media (max-width: 991px){
 
   .grid {
-    margin-left:0;
+    margin-left:2%;
   }
   h2.m-b-3{
-    display: none;
+
+    font-size:1rem;
   }
 
   .phone {
@@ -342,7 +343,6 @@ span.accent-pink {
   .contact-text {
     margin-top:0px;
   }
-
 
   .btn-email {
     left:0;
