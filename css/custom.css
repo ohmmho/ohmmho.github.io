@@ -240,7 +240,7 @@ span.accent-pink {
 /* scrolling stripes*/
 
 .fullpage {
-  /*height: 100vh;*/
+  height: 90vh;
   width: 100%;
   background: #312F38;
   color: #fff;
@@ -302,9 +302,9 @@ span.accent-pink {
   }
 }
 @media (max-width: 767px){
-  .display-3 {
+  /*.display-3 {
   margin-top:20rem;
-  }
+  }*/
   .video-container .poster img {
     display: block;
     width: 100%;
