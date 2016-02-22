@@ -1,3 +1,6 @@
+/* ====== first screenview ======= */
+
+/*video-mode*/
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -42,6 +45,7 @@
     width: 100%;
 }
 
+/*===== section-text =====*/
 .section-text {
   z-index: 999;
   padding-top:3rem;
@@ -51,13 +55,27 @@
   float: left;
 }
 
+.text-muted span {
+      padding: 0px 10px;
+}
 
+.col-md-5.col-md-offset-2 {
+  top:20px;
+}
+
+/*====== contact ======*/
 .contact-text {
   margin-top:-50px;
 }
 .btn-email {
   left:25%;
 }
+/*====== footer ======*/
+.section-footer {
+    padding-top: 2.4rem;
+    padding-bottom: 1rem;
+}
+
 /*======= UI Elements =======*/
 span.accent-pink {
    color: #FC636B;
@@ -87,20 +105,13 @@ span.accent-pink {
 }
 
 
-.section-footer {
-    padding-top: 2.4rem;
-    padding-bottom: 1rem;
-}
+
 /* ===== phone =====*/
 
 
 .container {
   margin-left:auto;
   margin-right: auto;
-
-
-
-
 
 }
 
@@ -160,7 +171,6 @@ span.accent-pink {
     animation: anime 0.5s linear infinite alternate;
   }
 
-
 .one {
   animation-delay:-0.33333s;
 }
@@ -185,9 +195,6 @@ span.accent-pink {
     }
 }
 
-
-
-
 .message {
   /*border: 0.14rem solid #FC636B;*/
   border-radius:12px;
@@ -203,7 +210,6 @@ span.accent-pink {
 
 }
 
-
 #hello {
   margin-top:4rem;
 
@@ -215,8 +221,6 @@ span.accent-pink {
   display:none;
 
   /*margin-right:20px;*/
-
-
 }
 
 .message:nth-child(even) {
@@ -239,7 +243,7 @@ span.accent-pink {
 
 
 
-/* scrolling stripes*/
+/* scrolling stripes */
 
 .fullpage {
   height: 10vh;
@@ -332,7 +336,15 @@ span.accent-pink {
     text-align: center;
   }
   .phone {
-    display:none;
+    position:relative;
+  }
+
+  .contact-text {
+    margin-top:0px;
+  }
+
+  .grid {
+    margin-left:7%;
   }
   .btn-email {
     left:0;
