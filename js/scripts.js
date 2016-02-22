@@ -44,6 +44,7 @@ function scaleBannerVideoSize(element){
             typeSpeed: 10,
             showCursor: false,
             backDelay: 1500,
+          
             onStringTyped: function(){
               $(".load").css({"display":"inline-flex"});
 

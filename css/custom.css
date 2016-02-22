@@ -44,6 +44,8 @@
 
 .section-text {
   z-index: 999;
+  padding-top:3rem;
+
 }
 .section-text img {
   float: left;
@@ -240,7 +242,7 @@ span.accent-pink {
 /* scrolling stripes*/
 
 .fullpage {
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   background: #312F38;
   color: #fff;
@@ -253,6 +255,9 @@ span.accent-pink {
   background: #312F38;
   color: #fff;
   text-align: center;
+}
+.bgpage.pink {
+  height: 150vh;
 }
 .textwrapper{
   padding-bottom:50%;
@@ -333,6 +338,8 @@ span.accent-pink {
   .section-signup .container.col-md-4 {
     margin-top:5rem;
   }
+
+
 }
 
 @media (min-width: 768px) {
