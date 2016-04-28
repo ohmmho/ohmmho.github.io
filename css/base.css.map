@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "landio.css",
+	"file": "base.css",
 	"sources": [
-		"../scss/landio.scss",
+		"../scss/base.scss",
 		"../scss/_icomoon.scss",
 		"../scss/bootstrap/_custom-variables.scss",
 		"../scss/bootstrap/_mixins.scss",
